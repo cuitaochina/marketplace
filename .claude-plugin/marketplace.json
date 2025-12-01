@@ -15,36 +15,45 @@
       "version": "1.0.0",
       "description": "Python开发工具集，包含代码格式化、语法检查、测试等功能",
       "category": "development",
-      "author": "cuitaochina",
-      "repository": "https://github.com/cuitaochina/python-dev-tools",
-      "main": "main.py",
-      "keywords": ["python", "development", "formatting", "testing"],
-      "dependencies": [],
-      "claude_version": ">=1.0.0"
+      "author": {
+        "name": "cuitaochina",
+        "url": "https://github.com/cuitaochina"
+      },
+      "source": {
+        "type": "github",
+        "url": "https://github.com/cuitaochina/python-dev-tools"
+      },
+      "keywords": ["python", "development", "formatting", "testing"]
     },
     {
       "name": "python-performance-analyzer",
       "version": "1.0.0", 
       "description": "Python性能分析和优化工具",
       "category": "development",
-      "author": "cuitaochina",
-      "repository": "https://github.com/cuitaochina/python-performance-analyzer",
-      "main": "analyzer.py",
-      "keywords": ["python", "performance", "optimization", "profiling"],
-      "dependencies": ["cProfile", "memory_profiler"],
-      "claude_version": ">=1.0.0"
+      "author": {
+        "name": "cuitaochina",
+        "url": "https://github.com/cuitaochina"
+      },
+      "source": {
+        "type": "github",
+        "url": "https://github.com/cuitaochina/python-performance-analyzer"
+      },
+      "keywords": ["python", "performance", "optimization", "profiling"]
     },
     {
       "name": "python-test-helper",
       "version": "1.0.0",
       "description": "Python测试辅助工具，支持pytest、unittest等框架",
       "category": "development", 
-      "author": "cuitaochina",
-      "repository": "https://github.com/cuitaochina/python-test-helper",
-      "main": "test_helper.py",
-      "keywords": ["python", "testing", "pytest", "unittest"],
-      "dependencies": ["pytest"],
-      "claude_version": ">=1.0.0"
+      "author": {
+        "name": "cuitaochina",
+        "url": "https://github.com/cuitaochina"
+      },
+      "source": {
+        "type": "github",
+        "url": "https://github.com/cuitaochina/python-test-helper"
+      },
+      "keywords": ["python", "testing", "pytest", "unittest"]
     }
   ],
   "categories": {
