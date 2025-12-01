@@ -1,4 +1,5 @@
 {
+  "owner": "cuitaochina",
   "name": "cuitaochina-marketplace",
   "version": "1.0.0",
   "description": "Claude Code Marketplace - 插件和扩展市场",
@@ -10,6 +11,32 @@
     "development": {
       "name": "开发工具",
       "description": "代码生成、重构、调试工具"
+    },
+    "data": {
+      "name": "数据分析",
+      "description": "数据处理、可视化、报告生成"
+    },
+    "design": {
+      "name": "设计工具",
+      "description": "UI组件、样式生成、设计系统"
+    },
+    "automation": {
+      "name": "自动化",
+      "description": "CI/CD、部署、工作流自动化"
+    },
+    "documentation": {
+      "name": "文档",
+      "description": "文档生成、API文档、教程"
+    },
+    "ai": {
+      "name": "AI工具",
+      "description": "LLM集成、智能助手、机器学习"
     }
+  },
+  "metadata": {
+    "created": "2025-12-01",
+    "last_updated": "2025-12-01",
+    "plugin_count": 0,
+    "category_count": 6
   }
 }
