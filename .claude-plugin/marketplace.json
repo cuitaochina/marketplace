@@ -1,5 +1,8 @@
 {
-  "owner": "cuitaochina",
+  "owner": {
+    "name": "cuitaochina",
+    "url": "https://github.com/cuitaochina"
+  },
   "name": "cuitaochina-marketplace",
   "version": "1.0.0",
   "description": "Claude Code Marketplace - 插件和扩展市场",
