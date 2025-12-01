@@ -1,0 +1,15 @@
+{
+  "name": "cuitaochina-marketplace",
+  "version": "1.0.0",
+  "description": "Claude Code Marketplace - 插件和扩展市场",
+  "author": "cuitaochina",
+  "repository": "https://github.com/cuitaochina/marketplace",
+  "license": "MIT",
+  "plugins": [],
+  "categories": {
+    "development": {
+      "name": "开发工具",
+      "description": "代码生成、重构、调试工具"
+    }
+  }
+}
