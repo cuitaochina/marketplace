@@ -4,23 +4,12 @@
     "url": "https://github.com/cuitaochina"
   },
   "name": "cuitaochina-marketplace",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Claude Code Marketplace - 插件和扩展市场",
   "author": "cuitaochina",
   "repository": "https://github.com/cuitaochina/marketplace",
   "license": "MIT",
-  "plugins": [
-    {
-      "name": "python-dev-helper",
-      "version": "1.0.0",
-      "description": "Python开发辅助工具，提供代码检查、格式化、性能分析等功能",
-      "category": "development",
-      "author": {
-        "name": "cuitaochina",
-        "url": "https://github.com/cuitaochina"
-      }
-    }
-  ],
+  "plugins": [],
   "categories": {
     "development": {
       "name": "开发工具",
@@ -50,7 +39,7 @@
   "metadata": {
     "created": "2025-12-01",
     "last_updated": "2025-12-01",
-    "plugin_count": 1,
+    "plugin_count": 0,
     "category_count": 6
   }
 }
