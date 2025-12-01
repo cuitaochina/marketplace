@@ -9,7 +9,44 @@
   "author": "cuitaochina",
   "repository": "https://github.com/cuitaochina/marketplace",
   "license": "MIT",
-  "plugins": [],
+  "plugins": [
+    {
+      "name": "python-dev-tools",
+      "version": "1.0.0",
+      "description": "Python开发工具集，包含代码格式化、语法检查、测试等功能",
+      "category": "development",
+      "author": "cuitaochina",
+      "repository": "https://github.com/cuitaochina/python-dev-tools",
+      "main": "main.py",
+      "keywords": ["python", "development", "formatting", "testing"],
+      "dependencies": [],
+      "claude_version": ">=1.0.0"
+    },
+    {
+      "name": "python-performance-analyzer",
+      "version": "1.0.0", 
+      "description": "Python性能分析和优化工具",
+      "category": "development",
+      "author": "cuitaochina",
+      "repository": "https://github.com/cuitaochina/python-performance-analyzer",
+      "main": "analyzer.py",
+      "keywords": ["python", "performance", "optimization", "profiling"],
+      "dependencies": ["cProfile", "memory_profiler"],
+      "claude_version": ">=1.0.0"
+    },
+    {
+      "name": "python-test-helper",
+      "version": "1.0.0",
+      "description": "Python测试辅助工具，支持pytest、unittest等框架",
+      "category": "development", 
+      "author": "cuitaochina",
+      "repository": "https://github.com/cuitaochina/python-test-helper",
+      "main": "test_helper.py",
+      "keywords": ["python", "testing", "pytest", "unittest"],
+      "dependencies": ["pytest"],
+      "claude_version": ">=1.0.0"
+    }
+  ],
   "categories": {
     "development": {
       "name": "开发工具",
@@ -39,7 +76,7 @@
   "metadata": {
     "created": "2025-12-01",
     "last_updated": "2025-12-01",
-    "plugin_count": 0,
+    "plugin_count": 3,
     "category_count": 6
   }
 }
