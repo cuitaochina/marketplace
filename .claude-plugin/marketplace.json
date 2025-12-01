@@ -4,56 +4,21 @@
     "url": "https://github.com/cuitaochina"
   },
   "name": "cuitaochina-marketplace",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Claude Code Marketplace - 插件和扩展市场",
   "author": "cuitaochina",
   "repository": "https://github.com/cuitaochina/marketplace",
   "license": "MIT",
   "plugins": [
     {
-      "name": "python-dev-tools",
+      "name": "python-dev-helper",
       "version": "1.0.0",
-      "description": "Python开发工具集，包含代码格式化、语法检查、测试等功能",
+      "description": "Python开发辅助工具，提供代码检查、格式化、性能分析等功能",
       "category": "development",
       "author": {
         "name": "cuitaochina",
         "url": "https://github.com/cuitaochina"
-      },
-      "source": {
-        "type": "github",
-        "url": "https://github.com/cuitaochina/python-dev-tools"
-      },
-      "keywords": ["python", "development", "formatting", "testing"]
-    },
-    {
-      "name": "python-performance-analyzer",
-      "version": "1.0.0", 
-      "description": "Python性能分析和优化工具",
-      "category": "development",
-      "author": {
-        "name": "cuitaochina",
-        "url": "https://github.com/cuitaochina"
-      },
-      "source": {
-        "type": "github",
-        "url": "https://github.com/cuitaochina/python-performance-analyzer"
-      },
-      "keywords": ["python", "performance", "optimization", "profiling"]
-    },
-    {
-      "name": "python-test-helper",
-      "version": "1.0.0",
-      "description": "Python测试辅助工具，支持pytest、unittest等框架",
-      "category": "development", 
-      "author": {
-        "name": "cuitaochina",
-        "url": "https://github.com/cuitaochina"
-      },
-      "source": {
-        "type": "github",
-        "url": "https://github.com/cuitaochina/python-test-helper"
-      },
-      "keywords": ["python", "testing", "pytest", "unittest"]
+      }
     }
   ],
   "categories": {
@@ -85,7 +50,7 @@
   "metadata": {
     "created": "2025-12-01",
     "last_updated": "2025-12-01",
-    "plugin_count": 3,
+    "plugin_count": 1,
     "category_count": 6
   }
 }
